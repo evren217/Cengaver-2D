@@ -6,7 +6,7 @@ This simple game does not require any game engine. It shows how to use lots of t
 
 NOTE: This project gives a general idea how to implement a simple 2D game in C++ with Win32 API.
 
-## Precompiled Version
+## Precompiled Version
 
 If you do not wish to compile the source code, you can download the binary file to install the game from [here](https://github.com/evren217/Cengaver-2D/releases)
 
