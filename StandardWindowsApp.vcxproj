@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>CengaGame</ProjectName>
+    <ProjectGuid>{4E46194A-E457-478E-BAA2-DF43C2D26BAE}</ProjectGuid>
+    <RootNamespace>StandardWindowsApp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CengaGame.cpp" />
+    <ClCompile Include="Data\GameLoader.cpp" />
+    <ClCompile Include="Data\IniReader.cpp" />
+    <ClCompile Include="Data\ParamLoader.cpp" />
+    <ClCompile Include="Data\TileManager.cpp" />
+    <ClCompile Include="Data\TilePropertiesLoader.cpp" />
+    <ClCompile Include="GameObjects\AI.cpp" />
+    <ClCompile Include="GameObjects\Enemy.cpp" />
+    <ClCompile Include="GameObjects\EnemyState.cpp" />
+    <ClCompile Include="GameObjects\Gadget.cpp" />
+    <ClCompile Include="GameObjects\Game.cpp" />
+    <ClCompile Include="GameObjects\Hero.cpp" />
+    <ClCompile Include="GameObjects\HeroState.cpp" />
+    <ClCompile Include="GameObjects\Inventory.cpp" />
+    <ClCompile Include="GameObjects\Level.cpp" />
+    <ClCompile Include="GameObjects\MovableObject.cpp" />
+    <ClCompile Include="GameObjects\State.cpp" />
+    <ClCompile Include="GameObjects\WorldRepository.cpp" />
+    <ClCompile Include="UserInterface\CharacterStatusBar.cpp" />
+    <ClCompile Include="UserInterface\Menu.cpp" />
+    <ClCompile Include="UserInterface\SplashScreen.cpp" />
+    <ClCompile Include="Utilities\Globals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\GameLoader.h" />
+    <ClInclude Include="Data\IniReader.h" />
+    <ClInclude Include="Data\ParamLoader.h" />
+    <ClInclude Include="Data\TileManager.h" />
+    <ClInclude Include="Data\TileProperties.h" />
+    <ClInclude Include="Data\TilePropertiesLoader.h" />
+    <ClInclude Include="GameObjects\AI.h" />
+    <ClInclude Include="GameObjects\Enemy.h" />
+    <ClInclude Include="GameObjects\EnemyState.h" />
+    <ClInclude Include="GameObjects\Gadget.h" />
+    <ClInclude Include="GameObjects\Gadgets\Prism.hpp" />
+    <ClInclude Include="GameObjects\Game.h" />
+    <ClInclude Include="GameObjects\Hero.h" />
+    <ClInclude Include="GameObjects\HeroState.h" />
+    <ClInclude Include="GameObjects\Inventory.h" />
+    <ClInclude Include="GameObjects\Level.h" />
+    <ClInclude Include="GameObjects\MovableObject.h" />
+    <ClInclude Include="GameObjects\State.h" />
+    <ClInclude Include="GameObjects\WorldRepository.h" />
+    <ClInclude Include="GameObjects\Interfaces\IDrawable.h" />
+    <ClInclude Include="GameObjects\Interfaces\IStateMachine.h" />
+    <ClInclude Include="GameObjects\Gadgets\Health.hpp" />
+    <ClInclude Include="GameObjects\Gadgets\Key.hpp" />
+    <ClInclude Include="GameObjects\Gadgets\Star.hpp" />
+    <ClInclude Include="UserInterface\CharacterStatusBar.h" />
+    <ClInclude Include="UserInterface\Menu.h" />
+    <ClInclude Include="UserInterface\SplashScreen.h" />
+    <ClInclude Include="UserInterface\Viewpoint.h" />
+    <ClInclude Include="Utilities\CollisionPoint.hpp" />
+    <ClInclude Include="Utilities\Globals.h" />
+    <ClInclude Include="Utilities\Macro.h" />
+    <ClInclude Include="Utilities\Vector2D.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\BackgroundTiles.bmp" />
+    <Image Include="Resources\cengaver.bmp" />
+    <Image Include="Resources\Credits.bmp" />
+    <Image Include="Resources\EndLevel.bmp" />
+    <Image Include="Resources\Enemies.bmp" />
+    <Image Include="Resources\Gadgets.bmp" />
+    <Image Include="Resources\Gameover.bmp" />
+    <Image Include="Resources\Inventory.bmp" />
+    <Image Include="Resources\MainBackground.bmp" />
+    <Image Include="Resources\paralaxBackground1.bmp" />
+    <Image Include="Resources\paralaxBackground2.bmp" />
+    <Image Include="Resources\SelectedGadget.bmp" />
+    <Image Include="Resources\SplashScreen.bmp" />
+    <Image Include="Resources\Menu\menu-credits.bmp" />
+    <Image Include="Resources\Menu\menu-exit.bmp" />
+    <Image Include="Resources\Menu\menu-left-resume.bmp" />
+    <Image Include="Resources\Menu\menu-left.bmp" />
+    <Image Include="Resources\Menu\menu-load.bmp" />
+    <Image Include="Resources\Menu\menu-new.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Params.ini" />
+    <None Include="Resources\tiles.properties" />
+    <None Include="Levels\level1.properties" />
+    <None Include="Levels\level2.properties" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

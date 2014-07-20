@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{c071266a-628b-4aed-8f0b-befc30dc8f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{e64a385f-bb1e-40e6-88cb-5ce0c6980948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserInterface">
+      <UniqueIdentifier>{33cde854-c77c-46cf-9e9d-58c07d468fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{8842ad03-1301-42e6-b116-525eb5e5b659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{68038ae9-2fc4-48fa-b1c4-7b032785d853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{552148a5-4674-4dce-85b9-4b303246dfca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Interfaces">
+      <UniqueIdentifier>{ffb146d3-13f9-4574-85f6-01827735e868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Gadgets">
+      <UniqueIdentifier>{94e35970-c0b2-4f5e-b7ce-55ce8b9ca393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface">
+      <UniqueIdentifier>{1538a943-e425-4794-afc2-f580f76c6980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{972ed93c-f54d-4527-a5c1-86d8a03de08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Menu">
+      <UniqueIdentifier>{45b80f25-4318-48b8-bcde-d6ac95f5adce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Levels">
+      <UniqueIdentifier>{f6d249c8-99e3-4b75-8b38-b8fd5b6d7333}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CengaGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\GameLoader.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\IniReader.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\ParamLoader.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TileManager.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TilePropertiesLoader.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\AI.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Enemy.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\EnemyState.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Gadget.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Game.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Hero.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\HeroState.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Inventory.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Level.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\MovableObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\State.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldRepository.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\CharacterStatusBar.cpp">
+      <Filter>Source Files\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\Menu.cpp">
+      <Filter>Source Files\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\SplashScreen.cpp">
+      <Filter>Source Files\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Globals.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\GameLoader.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\IniReader.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ParamLoader.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TileManager.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TileProperties.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TilePropertiesLoader.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\AI.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Enemy.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\EnemyState.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Gadget.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Game.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Hero.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\HeroState.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Inventory.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Level.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\MovableObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\State.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldRepository.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Interfaces\IDrawable.h">
+      <Filter>Header Files\GameObjects\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Interfaces\IStateMachine.h">
+      <Filter>Header Files\GameObjects\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Gadgets\Health.hpp">
+      <Filter>Header Files\GameObjects\Gadgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Gadgets\Key.hpp">
+      <Filter>Header Files\GameObjects\Gadgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Gadgets\Star.hpp">
+      <Filter>Header Files\GameObjects\Gadgets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\CharacterStatusBar.h">
+      <Filter>Header Files\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Menu.h">
+      <Filter>Header Files\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\SplashScreen.h">
+      <Filter>Header Files\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\Viewpoint.h">
+      <Filter>Header Files\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CollisionPoint.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Globals.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Macro.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Vector2D.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Gadgets\Prism.hpp">
+      <Filter>Header Files\GameObjects\Gadgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\BackgroundTiles.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cengaver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Credits.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\EndLevel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Enemies.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Gadgets.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Gameover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Inventory.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\MainBackground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\paralaxBackground1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\paralaxBackground2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SelectedGadget.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SplashScreen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu-credits.bmp">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu-exit.bmp">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu-left-resume.bmp">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu-left.bmp">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu-load.bmp">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu-new.bmp">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Params.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\tiles.properties">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Levels\level1.properties">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="Levels\level2.properties">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+  </ItemGroup>
+</Project>

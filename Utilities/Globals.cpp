@@ -1,0 +1,14 @@
+int debugmode = 0;
+
+char* TILESPROPERTIES;
+
+int FRICTION_MAX;
+int GRAVITY;
+
+signed char HERO_MAX_HEALTH;
+
+int PARALAXSPEED1;
+int PARALAXSPEED2;
+int ANIMATIONSPEED;
+
+unsigned long CURRENTTIME;
