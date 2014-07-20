@@ -4,7 +4,7 @@ __Cengaver 2D__ is a simple 2D side scrolling game, written in C++ with WinAPI.
 
 This simple game does not require any game engine. It shows how to use lots of topics including basic math and physics features, and advanced programming skills for windows messaging, 2D animations, state transitions and simple artificial intelligence.
 
-NOTE: This project gives a general idea how to implement a simple 2D game in C++ with Win32 API.
+NOTE: This project gives a general idea how to implement a simple 2D game in C++ with WinAPI. We appreciate if you can improve the game graphics.
 
 ## Precompiled Version
 
